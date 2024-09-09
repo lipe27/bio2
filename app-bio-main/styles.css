@@ -1,0 +1,92 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+
+    
+}
+form select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+a{
+text-decoration: none;
+color: #000;
+}
+.div{
+top: 50%;
+left: 50%;
+
+
+}
+/* Estilos do Rodapé */
+.rodape {
+    background-color: #fffdfd; /* Cor de fundo */
+    color: #070707; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px 0; /* Espaçamento interno */
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    bottom: 0; /* Alinha ao fundo da página */
+    width: 100%; /* Ocupa toda a largura da página */
+  }
+  
+  .rodape .container {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 0 20px; /* Espaçamento horizontal */
+  }
+  
+  .rodape p {
+    margin: 0; /* Remove margens padrão */
+    font-size: 0.9rem; /* Tamanho da fonte */
+  }
+  
+  .rodape .links {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding */
+  }
+  
+  .rodape .links li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 10px; /* Espaçamento entre itens */
+  }
+  
+  .rodape .links a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+  }
+  
+  .rodape .links a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+  }
+ 
